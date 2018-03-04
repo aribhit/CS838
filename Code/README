@@ -1,3 +1,3 @@
 Both the Jupyter notebook and the created .py file are present.
 
-Please change the varialbe called 'path' in the code to point to the appropriate folders where the Development Set and Test Set data are present.
+Please change the variable called 'path' in the code to point to the appropriate folders where the Development Set and Test Set data are present.
