@@ -2,6 +2,9 @@ We have 2 CSV files corresponding to data extracted from yelp.com and tripadviso
 Yelp_Restaurants.csv has 3160 tuples.
 TripAdvisor_Restaurants.csv has 3891 tuples.
 
+TripAdvisor_Restaurants.csv crosses GitHub's filesize limit to render it in its table format. (But it can for Yelp_Restaurants.csv)
+(More info: https://help.github.com/articles/rendering-csv-and-tsv-data/)
+
 Yelp_Restaurants.csv has the following attributes:
 Name: Name of the restaurant
 Address: Address of the restaurant
