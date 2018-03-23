@@ -1,0 +1,25 @@
+We have 2 CSV files corresponding to data extracted from yelp.com and tripadvisor.com.
+Yelp_Restaurants.csv has 3161 tuples.
+TripAdvisor_Restaurants.csv has 3892 tuples.
+
+Yelp_Restaurants.csv has the following atrributes:
+Name: Name of the restaurant
+Address: Address of the restaurant
+Phone: Phone number of the restaurant
+Cuisines: Cuisine the restaurant serves (separated by ';')
+Take Out: Yes/No depending on whether restaurant offers Takeout service
+Saturday Opening Time: Time in 12 hour clock with AM/PM or 'CLOSED' or 'OPEN 24 HOURS'
+Saturday Closing Time: Time in 12 hour clock with AM/PM or 'CLOSED' or 'OPEN 24 HOURS'
+Sunday Opening Time: Time in 12 hour clock with AM/PM or 'CLOSED' or 'OPEN 24 HOURS'
+Sunday Closing Time: Time in 12 hour clock with AM/PM or 'CLOSED' or 'OPEN 24 HOURS'
+
+TripAdvisor_Restaurants.csv has the following attributes:
+Name: Name of the restaurant
+Address: Address of the restaurant
+Phone: Phone number of the restaurant
+Cuisines: Cuisine the restaurant serves (separated by ';')
+Saturday Opening Time: Time in 12 hour clock with AM/PM or 'NaN' if data was missing
+Saturday Closing Time: Time in 12 hour clock with AM/PM or 'NaN' if data was missing
+Sunday Opening Time: Time in 12 hour clock with AM/PM or 'NaN' if data was missing
+Sunday Closing Time: Time in 12 hour clock with AM/PM or 'NaN' if data was missing
+Take Out: Yes/No depending on whether restaurant offers Takeout service
