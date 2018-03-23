@@ -1,6 +1,6 @@
 We have 2 CSV files corresponding to data extracted from yelp.com and tripadvisor.com.
-Yelp_Restaurants.csv has 3161 tuples.
-TripAdvisor_Restaurants.csv has 3892 tuples.
+Yelp_Restaurants.csv has 3160 tuples.
+TripAdvisor_Restaurants.csv has 3891 tuples.
 
 Yelp_Restaurants.csv has the following atrributes:
 Name: Name of the restaurant
