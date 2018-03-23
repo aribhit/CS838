@@ -1,1 +1,14 @@
+yelp_mining_links.py finds the yelp URL's of all restaurants that are present in New York (sorted by price). 
+It puts the URL list in yelprestaurants.txt.
+
+Yelp_help_yell.py takes a list of URL's from yelprestaurants.txt, and goes through each page to extract the required attributes. 
+It then puts it in a CSV file.
+
+TripAdvisorMiningLinks.py finds the TripAdvisor URL's of all restaurants that are present in New York.
+It puts the list in tripadvisor.txt.
+
+TripAdvisorNYCRestaurantNames.py takes a list of URL's from tripadvisor.txt, and goes through each page to extract the required attributes.
+It then puts it in a CSV file.
+
+
 All the code was written in jupyter notebook, and then converted to a .py file. You can find all required .py and .ipynb files here.
