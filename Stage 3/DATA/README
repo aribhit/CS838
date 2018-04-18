@@ -2,7 +2,7 @@ Table A corresponds to data from TripAdvisor_Restaurants.csv and Table B corresp
 TripAdvisor_Restaurants.csv has 3891 tuples.
 Yelp_Restaurants.csv has 3160 tuples.
 
-TripAdvisor_Restaurants.csv has the following attributes:
+TripAdvisor_Restaurants.csv and Yelp_Restaurants.csv have similar schema with the following attributes:
 Id: unique identifier
 Name: Name of the restaurant
 Address: Address of the restaurant
@@ -14,16 +14,9 @@ Sunday Opening Time: Time in 12 hour clock with AM/PM
 Sunday Closing Time: Time in 12 hour clock with AM/PM
 Take Out: Yes/No depending on whether restaurant offers Takeout service
 
-Yelp_Restaurants.csv has the following attributes:
-Id: unique identifier
-Name: Name of the restaurant
-Address: Address of the restaurant
-Phone: Phone number of the restaurant
-Cuisines: Cuisine the restaurant serves (separated by ';')
-Saturday Opening Time: Time in 12 hour clock with AM/PM
-Saturday Closing Time: Time in 12 hour clock with AM/PM 
-Sunday Opening Time: Time in 12 hour clock with AM/PM
-Sunday Closing Time: Time in 12 hour clock with AM/PM
-Take Out: Yes/No depending on whether restaurant offers Takeout service
 
-As can be seen, they have similar schema.
+F.csv file contains all the list of all tuple pairs that survive the blocking step (corresponding to Candidate Set C mentioned in the guidelines).
+
+Labelled_Sample_v2.csv contains the list of labelled tuple pairs in the sample we have taken (corresponding to set G in the guidelines).
+
+I.csv corresponds to our Development Set (set I) and J.csv corresponds to our Evaluation Set (set J).
