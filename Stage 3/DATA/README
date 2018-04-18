@@ -1,1 +1,29 @@
-Data goes here
+Table A corresponds to data from TripAdvisor_Restaurants.csv and Table B corresponds to data from Yelp_Restaurants.csv.
+TripAdvisor_Restaurants.csv has 3891 tuples.
+Yelp_Restaurants.csv has 3160 tuples.
+
+TripAdvisor_Restaurants.csv has the following attributes:
+Id: unique identifier
+Name: Name of the restaurant
+Address: Address of the restaurant
+Phone: Phone number of the restaurant
+Cuisines: Cuisine the restaurant serves (separated by ';')
+Saturday Opening Time: Time in 12 hour clock with AM/PM
+Saturday Closing Time: Time in 12 hour clock with AM/PM
+Sunday Opening Time: Time in 12 hour clock with AM/PM
+Sunday Closing Time: Time in 12 hour clock with AM/PM
+Take Out: Yes/No depending on whether restaurant offers Takeout service
+
+Yelp_Restaurants.csv has the following attributes:
+Id: unique identifier
+Name: Name of the restaurant
+Address: Address of the restaurant
+Phone: Phone number of the restaurant
+Cuisines: Cuisine the restaurant serves (separated by ';')
+Saturday Opening Time: Time in 12 hour clock with AM/PM
+Saturday Closing Time: Time in 12 hour clock with AM/PM 
+Sunday Opening Time: Time in 12 hour clock with AM/PM
+Sunday Closing Time: Time in 12 hour clock with AM/PM
+Take Out: Yes/No depending on whether restaurant offers Takeout service
+
+As can be seen, they have similar schema.
